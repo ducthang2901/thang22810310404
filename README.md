@@ -2,4 +2,4 @@
 ### MSV: 22810310404
 ## Ket qua
 
-![Hinh anh 01](![e2520cbb-5d53-4f81-92a8-6e8b1745416c](https://github.com/user-attachments/assets/0b6ce52a-ba90-4104-9a00-25c05d0d3251))
+![f82052da-73c5-4b89-ad0e-3cb75a082c34](https://github.com/user-attachments/assets/2e82be10-dfd3-42ee-bbaf-9f8a19ed3621)
