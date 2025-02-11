@@ -1,8 +1,8 @@
 import { registerRootComponent } from 'expo';
 
-import baitap2 from './baitap2';
+import baitapslidebuoi5 from './baitapslidebuoi5';
 
 // registerRootComponent calls AppRegistry.registerComponent('main', () => App);
 // It also ensures that whether you load the app in Expo Go or in a native build,
 // the environment is set up appropriately
-registerRootComponent(baitap2);
+registerRootComponent(baitapslidebuoi5);
