@@ -2,4 +2,4 @@
 ### MSV: 22810310404
 ## Ket qua
 
-![Image](https://github.com/user-attachments/assets/ea166722-4c72-4829-80e8-8d3e124b3dfe)
+![Image](https://github.com/user-attachments/assets/13552eb7-bbe5-428f-a031-9538cf2f128f)
