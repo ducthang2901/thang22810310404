@@ -1,33 +1,26 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+import SplashScreen from './screens/SplashScreen';
+import OnboardingScreen from './screens/OnboardingScreen';
+import HomeScreen from './screens/HomeScreen';
+import PhoneNumberScreen from './screens/PhoneNumberScreen';
+import VerificationScreen from './screens/VerificationScreen';
+
+const Stack = createStackNavigator();
 
 const App = () => {
   return (
-    <View style={styles.container}>
-      <View style={styles.square}>
-        <Text style={styles.text}>Hello, world</Text>
-      </View>
-    </View>
+    <NavigationContainer>
+      <Stack.Navigator screenOptions={{ headerShown: false }}>
+        <Stack.Screen name="Splash" component={SplashScreen} />
+        <Stack.Screen name="Onboarding" component={OnboardingScreen} />
+        <Stack.Screen name="Home" component={HomeScreen} />
+        <Stack.Screen name="PhoneNumber" component={PhoneNumberScreen} />
+        <Stack.Screen name="VerificationScreen" component={VerificationScreen} />
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  square: {
-    width: 300,
-    height: 300,
-    backgroundColor: 'black',
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  text: {
-    color: 'white',
-    fontSize: 16,
-  },
-});
 
 export default App;
