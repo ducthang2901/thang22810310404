@@ -29,7 +29,7 @@ const VerificationScreen = ({ navigation }) => {
       </TouchableOpacity>
       <TouchableOpacity 
         style={styles.nextButton}
-        onPress={() => navigation.navigate('NextScreen')} // Added navigation
+        onPress={() => navigation.navigate('SelectLocationScreen')} 
       >
         <Text style={styles.nextButtonText}>{'>'}</Text>
       </TouchableOpacity>
